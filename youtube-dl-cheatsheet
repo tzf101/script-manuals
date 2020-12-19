@@ -1,5 +1,5 @@
 Download a video or playlist:
-youtube-dl "https://www.youtube.com/watch?v=oHg5SJYRHA0"
+youtube-dl -cit "https://www.youtube.com/watch?v=oHg5SJYRHA0"
 
 Use the -o option with youtube-dl to manually give a location for the downloaded files:
 youtube-dl -o "~/Desktop/%(title)s.%(ext)s" "https://www.youtube.com/watch?v=oHg5SJYRHA0"
