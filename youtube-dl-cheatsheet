@@ -1,5 +1,5 @@
 Download a video or playlist:
-youtube-dl -cit "https://www.youtube.com/watch?v=oHg5SJYRHA0"
+youtube-dl -cio '%(autonumber)s-%(title)s.%(ext)s' "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm" ; rename 's/000//g' *
 
 Download a audio playlist:
 youtube-dl -cit --extract-audio --audio-format mp3 https://www.youtube.com/playlist?list=PLttJ4RON7sleuL8wDpxbKHbSJ7BH4vvCk
