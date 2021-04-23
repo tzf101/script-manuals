@@ -1,3 +1,6 @@
+Download Playlist in highest quality:
+youtube-dl -f ("bestvideo[width>=1920]"/bestvideo)+bestaudio/best "playlist/video url"
+
 Download a video or playlist:
 youtube-dl -cio '%(autonumber)s-%(title)s.%(ext)s' "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm" ; rename 's/000//g' *
 
