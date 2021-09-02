@@ -16,7 +16,7 @@ def CropOne(loc):
 	width, height = im.size
 	
 	# Setting the points for cropped image
-	increment = width*(1072/1448) - 50
+	increment = width*(1072/1448) - 500
 	left = 0
 	top = 0
 	right = width
